@@ -1,0 +1,8 @@
+NODELIST compute-small-01-01,compute-small-02-01
+[prun] Master compute host = compute-small-01-01
+[prun] Resource manager = slurm
+[prun] Launch cmd = srun --mpi=pmix -- ./latencia  (family=openmpi5)
+##0	2	compute-small-01-01
+#Rango	RTT(res=1.000e-09)
+1	20.100844
+##1	2	compute-small-02-01

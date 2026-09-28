@@ -1,0 +1,10 @@
+NODELIST compute-big-03-01,compute-small-06-02,compute-small-07-[01-02],compute-small-08-[01-02],compute-small-09-[01-02]
+[prun] Master compute host = compute-big-03-01
+[prun] Resource manager = slurm
+[prun] Launch cmd = srun --mpi=pmix -- ./ej5mejorado 100000000 (family=openmpi5)
+N=100000000 procs=16
+Suma paralela   = 3.3334132990e+07
+Suma secuencial = 3.3334132990e+07
+Error relativo  = 8.773e-14
+Tiempo (reparto+calculo+reduccion) = 6.375302 s
+CSV,100000000,16,6.375302
